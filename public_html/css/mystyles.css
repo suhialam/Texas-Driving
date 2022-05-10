@@ -1,0 +1,280 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 2, 2017, 6:55:32 PM
+    Author     : suhail
+*/
+.top{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid whitesmoke;
+}
+.subtop{
+    width: 70px;
+    min-height: 10px;
+    border: 1px solid whitesmoke;
+    margin-left: 40px;
+    color: #2a80b9 ;
+    overflow: hidden;
+    padding: 10px 0px;
+    display: inline-table;
+}
+.button{
+    background-color: white;
+    color: #2a80b9;
+    width: 70px;
+    height: 38px;
+}
+.header{
+    margin-top: 40px;
+    width: 100%;
+    height: 60px;
+    
+    background-color: #2a80b9;
+    opacity: 1px;
+    color: white;
+}
+
+.subhead{
+    width: 800px;
+    height: 58px;
+    float: right;
+   
+    
+}
+.menumargin{
+    margin: 40px;
+    color: white;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration:none;
+    font-size: 18px;
+}
+.maindiv{
+    width: 100%;
+    height: 350px;
+    /*border: 1px solid black;-->*/
+    margin-top: 50px;
+}
+.submain{
+    width: 350px;
+    height: 346px;
+    border: 1px solid whitesmoke;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    
+}
+.footer{
+    width: 100%;
+   min-height: 10px;
+    border: 1px solid #2a80b9;
+    
+    background-color: #2d3e50;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+.footmain{
+    width: 100%;
+    height: 300px;
+    border: 1px solid blue;
+    margin-top: 10px;
+    background-color: #2d3e50;
+}
+.footer1{
+    width: 100%;
+    height: 100px;
+    background: #2a80b9;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+.footerimages{
+     height: 80px;
+    width: 150px;
+    margin-top:10px;
+    border: 1px solid white;
+}
+
+.subfoot{
+    width: 350px;
+    height: 298px;
+    
+}
+
+.login{
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px;
+    
+}
+.button{
+    width: 70px;
+    height: 30px;
+    background-color: #213a73;
+    color: white;
+    border-radius: 7px;
+    
+}
+.abc{
+    color: white;
+    display: block;
+    margin-top: 10px;
+    list-style-type: square!important;
+}
+.face{
+    margin-left: 30px;
+    height: 40px;
+    width: 200px;
+    background-color: #2a80b9;
+    color: #ffffff;
+    margin-top: 20px;
+    
+}
+.signup-main-div{
+    width: 800px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    
+    
+}
+.signup-left{
+    width: 400px;
+    height: 520px;
+    
+    float: left;
+}
+.signup-right{
+    width: 395px;
+    height: 520px;
+    
+    float: right;
+}
+.risk{
+    color: red;
+    font-size: 6px;
+    vertical-align: top;
+}
+.label-signup{
+    margin-left: 10px;
+    color: black;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    content: "*";
+        
+}
+.textfield-signup{
+    width: 200px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.register-button{
+    width: 170px;
+    height: 50px;
+    border-radius: 7px;
+    color: white;
+    background: #213a73;
+    margin-right: 30px;
+    margin-top: 15px;
+    
+    float: right;
+}
+.contact{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 100px;
+    
+}
+.contact-text{
+    width: 300px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.tabcontenr {
+    
+    background: #fff;
+    height: 500px;
+    padding: 40px;
+    font-family: calibri;
+    margin-bottom: -90px;
+    
+}
+
+#content1, #content2, #content3, #content4,#content5  {
+    display: none;
+    height: 350px;
+    border-top: 1px solid #bbb;
+    padding: 15px;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,#tab5:checked ~ #content5 {
+    display: block;
+    box-shadow: 0 0 15px #939393;
+}
+
+.tabcontenr input {
+    display: none;
+}
+.tabcontenr label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: #dddddd 1px solid;
+    border-radius: 3px;
+    width: 230px;
+    padding: 5px 25px;
+    color: #000;
+    margin-bottom: 1px;
+    margin-left: -1px;
+}
+.tabcontenr label:before {
+
+    display:block;
+    width:100%;
+    height:15px;
+    background-color:#fff;
+    position:absolute;
+    left:0;
+    z-index:10;
+}
+.tabcontenr label:hover {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #2a80c2;
+
+}
+.tabcontenr input:checked + label {
+    position: relative;
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #2a80c2;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    background-color: #2a80c2;
+}
+.tabcontenr input:checked + label:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    box-shadow: 0 0 10px #939393;
+}
